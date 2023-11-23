@@ -1,0 +1,82 @@
+.filter_container {
+    position: absolute;
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+    width: 70vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.filter_container div {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+.filter_btn {
+    display: flex;
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.filter_btn:hover {
+    background-color: rgb(1, 83, 1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.record {
+    display: flex;
+    background-color: green;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    color: white;
+    border-radius: 5px;
+}
